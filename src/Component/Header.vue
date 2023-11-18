@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full border-b">
+  <nav class="sticky top-0 z-50 w-full bg-gray-300 border-b">
     <div
       class="container flex items-center justify-between px-6 py-5 mx-auto md:py-0"
     >
@@ -9,7 +9,7 @@
       <div>
         <button
           @click="toggleMenu(false)"
-          class="text-gray-500 sm:block md:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
+          class="text-white sm:block md:hidden hover:text-gray-300 focus:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
         >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
