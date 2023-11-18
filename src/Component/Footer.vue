@@ -81,8 +81,9 @@
         <a href="#">
           <img
             class="w-auto h-7"
-            src="src/assets/logo-light.png"
-            alt=""
+            src="../assets/logoLight.png"
+            
+            alt="logoLight"
           />
         </a>
 
